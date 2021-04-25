@@ -1,0 +1,176 @@
+#gallery {
+  margin: 7.5rem 0;
+}
+
+#gallery .container {
+  width: 80%;
+  margin: auto;
+}
+
+#gallery h2.title {
+  text-transform: uppercase;
+  font-family: "Droid Serif", serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.25rem;
+  margin: 10px 0;
+  color: #2d2d2e;
+}
+
+#gallery h3.title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #1ec0ff;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+#gallery .gallery-img {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#gallery .gallery-img img {
+  width: 45%;
+  margin: 0.5rem;
+}
+
+#book-form {
+  margin: 7.5rem auto;
+  margin-bottom: 0px !important;
+}
+
+#book-form .container {
+  width: 50%;
+  margin: auto;
+}
+
+#book-form .container h2.title {
+  text-transform: uppercase;
+  font-family: "Droid Serif", serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.25rem;
+  margin: 10px 0;
+  color: #2d2d2e;
+}
+
+#book-form .container h3.title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #1ec0ff;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+#book-form .container .form-container {
+  margin-top: 4rem;
+  padding: 50px 40px 35px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px 5px rgba(17, 21, 23, 0.1);
+}
+
+#book-form .container .form-container .form-control input,
+#book-form .container .form-container .form-control textarea {
+  height: 60px;
+  padding: 20px 30px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 100;
+  border: 1px solid #eee;
+  border-radius: 0;
+  width: 100%;
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#book-form .container .form-container .form-control input::placeholder,
+#book-form .container .form-container .form-control textarea::placeholder {
+  color: #ccc;
+}
+
+#book-form .container .form-container .form-control input:focus,
+#book-form .container .form-container .form-control textarea:focus {
+  outline: 1px solid #1ec0ff;
+}
+
+#book-form .container .form-container .form-control input:invalid,
+#book-form .container .form-container .form-control textarea:invalid {
+  outline: 1px solid #8d0909;
+}
+
+#book-form .container .form-container .form-control textarea {
+  height: 200px !important;
+}
+
+#book-form .container .form-container .btn {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  background-color: #1ec0ff;
+  border-color: #1ec0ff;
+  border-radius: 25px;
+  line-height: 46px;
+  height: 48px;
+  padding: 0px 30px;
+  opacity: 0.65;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+#book-form .container .form-container .btn:hover {
+  background-color: #0080ff;
+  border-color: #0080ff;
+}
+
+@media (max-width: 1199px) {
+  #book-form .container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 991px) {
+  #book-form .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  #book-form .container {
+    width: 90%;
+  }
+  #book-form .container .form-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #book-form .container .form-container .form-control input,
+  #book-form .container .form-container .form-control textarea {
+    margin: 10px 0px;
+    padding: 5px;
+    width: 100%;
+  }
+  #book-form .container .form-container .form-control input::placeholder,
+  #book-form .container .form-container .form-control textarea::placeholder {
+    font-size: 14.5px;
+  }
+  #gallery .container {
+    width: 99%;
+  }
+}
+
+@media (max-width: 330px) {
+  #gallery .container .gallery-img img {
+    width: 80%;
+  }
+}

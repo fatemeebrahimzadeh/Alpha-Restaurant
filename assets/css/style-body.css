@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap");
+@font-face {
+  font-family: "Droid Serif";
+  src: url(../fonts/droidserif/DroidSerif-Regular.ttf);
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#about {
+  margin: 7.5rem auto;
+}
+
+#about .container {
+  width: 80%;
+  margin: auto !important;
+}
+
+#about h2.header {
+  font-family: "Droid Serif", serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #2d2d2e;
+  line-height: 1.2;
+  margin: 10px auto;
+}
+
+#about h3.header {
+  color: #1ec0ff;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.625rem 0px;
+}
+
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0 10px;
+}
+
+#about .content .text {
+  width: 50%;
+  text-align: center;
+  margin: 2rem auto !important;
+}
+
+#about .content .text h4.title {
+  font-family: "Montserrat", sans-serif;
+  color: #2d2d2d;
+  font-size: 24px;
+  margin: 1rem 0;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#about .content .text .p-1 {
+  font-family: "Droid Serif", serif !important;
+  margin: 20px 0px 10px;
+  color: #888;
+  line-height: 24px;
+}
+
+#about .content .text .p-2 {
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0px 10px;
+  color: #888;
+  line-height: 24px;
+  text-align: center;
+}
+
+#about .content .text .btn {
+  margin: 30px 0px 10px;
+  border: none;
+  background-color: transparent;
+}
+
+#about .content .text a.link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  background-color: #1ec0ff;
+  border-color: #1ec0ff;
+  border-radius: 30px;
+  line-height: 46px;
+  height: 48px;
+  padding: 15px 30px;
+  opacity: 0.65;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+#about .content .text a.link:hover {
+  background-color: #0080ff;
+  border-color: #0080ff;
+}
+
+#about .content .content-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 50%;
+}
+
+#about .content .content-img img {
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+  padding: 0px 15px;
+  vertical-align: middle;
+}
+
+#comment {
+  width: 100%;
+  background: url("../img/comment-bg.jpg") center 0 no-repeat;
+  background-size: cover;
+  background-position: 50% 27px;
+  background-attachment: fixed;
+  height: 450px;
+  position: relative;
+}
+
+#comment .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#comment .msg {
+  color: #fff;
+  text-align: center;
+  width: 679px;
+  max-width: 80%;
+  margin: 10% auto 0;
+}
+
+#comment .msg p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+#comment .msg p i {
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  vertical-align: super;
+}
+
+#comment .msg h4 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 450;
+  margin-top: 3rem;
+}
+
+#team {
+  padding-top: 3rem;
+  background-color: #fff;
+  height: auto;
+}
+
+#team .container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#team .container .img-team {
+  width: 50%;
+  margin: auto;
+  padding: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#team .container .img-team img {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+}
+
+#team .container .text {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+#team .container .text h2.title {
+  text-transform: uppercase;
+  font-family: "Droid Serif", serif !important;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  color: #2d2d2d;
+}
+
+#team .container .text h3.title {
+  color: #1ec0ff !important;
+  font-family: "Great Vibes", cursive;
+  font-size: 24px;
+  margin: 1rem 0;
+}
+
+#team .container .text .p-1 {
+  font-family: "Droid Serif", serif !important;
+  margin: 20px 0px 10px;
+  color: #888;
+  line-height: 24px;
+  font-weight: 0.9375rem;
+}
+
+#team .container .text .p-2 {
+  margin: 20px 0px 10px;
+  line-height: 24px;
+  color: #888;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9375rem;
+}
+
+.owl-carousel .owl-item {
+  animation-duration: 5s !important;
+}
+
+#scroll-container {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  display: none;
+}
+
+#scroll-container .scroll {
+  cursor: pointer;
+  background: #1ec0ff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+#scroll-container .scroll a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#scroll-container .scroll:hover {
+  background: #2d2d2d;
+}
+
+#scroll-container .scroll:hover a {
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  #about .container {
+    width: 100% !important;
+    padding: 1rem;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #about .content .text {
+    width: 99%;
+  }
+  #about .content .content-img {
+    width: 99%;
+  }
+  #team .container .text {
+    width: 80% !important;
+  }
+  #team .container .img-team {
+    width: 90% !important;
+    margin: auto;
+  }
+  #team .container .img-team img {
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #about .content img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 355px) {
+  #comment .msg {
+    margin-top: 0 !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+}

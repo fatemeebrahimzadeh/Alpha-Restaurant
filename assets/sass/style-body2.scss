@@ -1,0 +1,184 @@
+#gallery {
+  margin: 7.5rem 0;
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  h2.title {
+    text-transform: uppercase;
+    font-family: "Droid Serif", serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.25rem;
+    margin: 10px 0;
+    color: #2d2d2e;
+  }
+  h3.title {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #1ec0ff;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+  // without-bootstrap
+  .gallery-img {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    img {
+      width: 45%;
+      margin: 0.5rem;
+    }
+  }
+  // wih-bootstrap
+  // img {
+  //   width: 100%;
+  //   margin: 10px 10px;
+  //   height: auto;
+  // }
+}
+
+#book-form {
+  margin: 7.5rem auto;
+  // without-bootstrap
+  margin-bottom: 0px !important;
+  // with-bootstrap
+  // margin-bottom: 100px !important;
+  // text-align: center;
+  .container {
+    width: 50%;
+    margin: auto;
+    h2.title {
+      text-transform: uppercase;
+      font-family: "Droid Serif", serif;
+      font-weight: 300;
+      text-align: center;
+      font-size: 2.25rem;
+      margin: 10px 0;
+      color: #2d2d2e;
+    }
+    h3.title {
+      font-family: "Great Vibes", cursive;
+      font-weight: 500;
+      font-size: 1.5rem;
+      text-align: center;
+      color: #1ec0ff;
+      line-height: 1.2;
+      margin: 10px 0;
+    }
+    .form-container {
+      margin-top: 4rem;
+      padding: 50px 40px 35px;
+      background-color: #fff;
+      box-shadow: 0 10px 30px 5px rgba(17, 21, 23, 0.1);
+      .form-control {
+        input,
+        textarea {
+          height: 60px;
+          padding: 20px 30px;
+          font-size: 16px;
+          line-height: 25px;
+          font-weight: 100;
+          border: 1px solid #eee;
+          border-radius: 0;
+          width: 100%;
+          margin: 10px;
+          font-family: sans-serif;
+          font-weight: 300;
+          &::placeholder {
+            color: #ccc;
+          }
+          &:focus {
+            outline: 1px solid#1ec0ff;
+          }
+          &:invalid{
+            outline: 1px solid rgb(141, 9, 9);
+          }
+        }
+        textarea {
+          height: 200px !important;
+         
+        }
+      }
+      .btn {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        color: #fff;
+        background-color: #1ec0ff;
+        border-color: #1ec0ff;
+        border-radius: 25px;
+        line-height: 46px;
+        height: 48px;
+        padding: 0px 30px;
+        opacity: 0.65;
+        text-transform: uppercase;
+        text-align: center;
+        border: 1px solid transparent;
+        &:hover {
+          background-color: #0080ff;
+          border-color: #0080ff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  #book-form {
+    .container {
+      width: 65%;
+    }
+  }
+}
+@media (max-width: 991px) {
+  #book-form {
+    .container {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #book-form {
+    .container {
+      width: 90%;
+      .form-container {
+       padding-left:1rem;
+       padding-right:1rem;
+        .form-control {
+          input,
+          textarea {
+            margin: 10px 0px;
+            padding: 5px;
+            width: 100%;
+            &::placeholder{
+              font-size: 14.5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #gallery {
+    .container {
+      width: 99%;
+    }
+  }
+}
+@media (max-width: 330px) {
+  #gallery {
+    .container {
+      .gallery-img {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
